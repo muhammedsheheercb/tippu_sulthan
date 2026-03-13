@@ -283,14 +283,7 @@ const Footer = () => {
       </div>
 
       {/* mobile screen */}
-      <div className="flex flex-col items-center justify-center gap-2 px-2 pt-4 md:flex-row md:justify-between md:px-12">
-        <Link
-          href={'https://foodo.ai'}
-          target="_blank"
-          className="font-aboreto text-sm font-[400] text-[#6C4D2A]"
-        >
-          Powered by Foodo
-        </Link>
+      <div className="flex flex-col items-center justify-center gap-2 px-2 pt-4 md:flex-row md:px-12">
         <span className="font-aboreto text-sm font-[400] text-[#6C4D2A]">
           © 2025 TIPU SULTAN. All Rights Reserved.{' '}
         </span>
